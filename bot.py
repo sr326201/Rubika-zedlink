@@ -5,22 +5,26 @@ os.system("pip install ArseinRubika")
 from arsein import Messenger
 from arsein.Zedcontent import Antiadvertisement
 from colorama import *
+import time
+os.system("clear")
 
-#os.system("clear")
-#os.system("pip install colorama")
-#os.system("pip install ArseinRubika")
-input = input(Fore.GREEN+"Enter Aothe >>> ")
+Auth1 = input(Fore.GREEN+"Enter Authe Bot >>> ")
+time.sleep(1.5)
+Auth = input(Fore.GREEN+"Enter Authe2 Bot >>> ")
+time.sleep(1.5)
 Test = input(Fore.RED+"Enter Goid Group >>> ")
-Grop = input(Fore.RED+"Link Grop >>> ")
-tabligh = Antiadvertisement(input)
-bot = Messenger(input)
+time.sleep(1)
+Grop = input(Fore.RED+"Send me Your Group Link>>> ")
+
+tabligh = Antiadvertisement(Auth1)
+bot = Messenger(Auth)
 bot.joinGroup(Grop)
 guid_gap = Test
 list_id = []
 
 de = 0
 
-while 1:
+while True:
 	try:
 		message = bot.getChatGroup(guid_gap)
 		for msg in message:
