@@ -10,12 +10,12 @@ from colorama import *
 #os.system("pip install colorama")
 #os.system("pip install ArseinRubika")
 input = input(Fore.GREEN+"Enter Aothe >>> ")
-Goide = input(Fore.RED+"Enter Goid Group >>> ")
+Test = input(Fore.RED+"Enter Goid Group >>> ")
 Grop = input(Fore.RED+"Link Grop >>> ")
 tabligh = Antiadvertisement(input)
 bot = Messenger(input)
 bot.joinGroup(Grop)
-guid_gap = Goide
+guid_gap = Test
 list_id = []
 
 de = 0
