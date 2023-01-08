@@ -1,12 +1,17 @@
 from arsein import Messenger
 from arsein.Zedcontent import Antiadvertisement
-
-tabligh = Antiadvertisement("bhnykisnuiepilbkuzlsrfhaillhusca")
-
-bot = Messenger("bhnykisnuiepilbkuzlsrfhaillhusca")
-
-guid_gap = "g0C6pam04be097b204f957d1560289d2"
-
+from colorama import *
+import os
+os.system("clear")
+os.system("pip install colorama")
+os.system("pip install ArseinRubika")
+input = input(Fore.GREEN+"Enter Aothe >>> ")
+Goide = input(Fore.RED+"Enter Goid Group >>> ")
+Grop = input(Fore.RED+"Link Grop >>> ")
+tabligh = Antiadvertisement(input)
+bot = Messenger(input)
+bot.joinGroup(Grop)
+guid_gap = Goide
 list_id = []
 
 de = 0
