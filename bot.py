@@ -1,10 +1,14 @@
-from arsein import Messenger
-from arsein.Zedcontent import Antiadvertisement
-from colorama import *
 import os
 os.system("clear")
 os.system("pip install colorama")
 os.system("pip install ArseinRubika")
+from arsein import Messenger
+from arsein.Zedcontent import Antiadvertisement
+from colorama import *
+
+#os.system("clear")
+#os.system("pip install colorama")
+#os.system("pip install ArseinRubika")
 input = input(Fore.GREEN+"Enter Aothe >>> ")
 Goide = input(Fore.RED+"Enter Goid Group >>> ")
 Grop = input(Fore.RED+"Link Grop >>> ")
